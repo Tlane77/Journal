@@ -24,6 +24,7 @@ body {
   float: left;
   width: 25%;
   padding-left: 20px;
+  display: flex-end;
 }
 /* Fake image */
 .MLHProfile {
@@ -41,9 +42,11 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: lightskyblue;
   padding: 20px;
   margin-top: 20px;
+  align-content: flex-start;
+  flood-opacity: 10%;
 }
 
 /* Clear floats after the columns */
